@@ -1,4 +1,5 @@
 Test
+2222
 Preliminary requirements:
 	1. Setup TTN application and in TTN "Payload formatters" -> "Uplink" use "Custom 		Javascript formatter" 
 		function decodeUplink(input) {
