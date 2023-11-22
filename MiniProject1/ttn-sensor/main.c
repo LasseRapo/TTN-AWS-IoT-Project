@@ -1,3 +1,5 @@
+// This code has been adapted from the following IoT-LAB Training Course: https://github.com/iot-lab/iot-lab-training/tree/master/riot/lorawan/ttn-sensors
+
 #include <string.h>
 
 #include "board.h"
