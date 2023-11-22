@@ -62,9 +62,9 @@ For "SQL statement" to get our project work use this
 
 8 - Then "flash firmware" on the node. Use the .elf file downloaded in step 6. After this it should send the message to TTN and TTN should send it to AWS, and then store it to DynamoDB. You can monitor the terminal to see if the messages are sent. If the connection to TTN fails, try resetting the board.
 
+<br/>
 
-
-Efficiency and Resilience Evaluation
+### Efficiency and Resilience Evaluation
 
 1. Sensing Layer Efficiency:
 
