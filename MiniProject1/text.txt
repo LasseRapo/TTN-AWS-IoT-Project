@@ -1,0 +1,3 @@
+Sensing Layer Efficiency:
+
+    The sensing layer appears to be efficient in terms of capturing environmental data. The project utilizes sensors like HTS221 for humidity and temperature, and LPS22HB for pressure. Simulated air quality is also considered. The efficiency of this layer depends on the accuracy and reliability of the sensor data, which can be affected by the sensor's precision, calibration, and environmental conditions.
