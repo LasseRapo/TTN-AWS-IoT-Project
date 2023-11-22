@@ -63,6 +63,9 @@ For "SQL statement" to get our project work use this
 8 - Then "flash firmware" on the node. Use the .elf file downloaded in step 6. After this it should send the message to TTN and TTN should send it to AWS, and then store it to DynamoDB. You can monitor the terminal to see if the messages are sent. If the connection to TTN fails, try resetting the board.
 
 
+
+##Efficiency and Resilience Evaluation
+
 1. Sensing Layer Efficiency:
 
 Our project utilizes HTS221 sensor for humidity and temperature data collecting, LPS22HB sensor for pressure data collecting
@@ -92,7 +95,6 @@ The efficiency of the management layer depends on how often the data is transmit
 The data reliability depens on many things but most important is the accuracy and calibration of the sensors. The code doesn't include any 
 calibration checks or correction mechanisms if the calibration is bad. 
 
-6. Efficiency and Resilience Evaluation
    
 In summary our project demonstrates working end-to-end IoT system, further improvement on handling issues on network, data loss and calibration
 changes would improve the reliabilyty of the project.
