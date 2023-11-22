@@ -7,3 +7,7 @@ the efficiency of this layer depends on the accuracy and reliability of those se
 The efficiency can be affected by precision, calibration, and environmental conditions of the sensors.
 
 2. Networking Layer Efficiency: 
+
+Our networking layer uses the LoRaWAN protocol to transmit data to TTN (The Things Network) and then forwards it to AWS using MQTT.
+Networking layer efficiency depends on the chosen data rate, which is set DR5 in our case and the data sending function is timed to 
+sleep for 20 seconds between each message, this affects the energy efficiency positively.
