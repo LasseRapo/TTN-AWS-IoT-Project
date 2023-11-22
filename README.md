@@ -1,6 +1,22 @@
+This project uses the FIT IoT lab, The Things Network and AWS. The board in the IoT lab testbed reads sensor data, sends it to the TTN by LoRaWAN, and then TTN forwards the data to the AWS DynamoDB by MQTT.
+
+Here is a quick video demonstration of the project: https://youtu.be/l7ZJS32fN-E
+
 How to use the project:
 
-1 - Setup TTN application and in TTN "Payload formatters" -> "Uplink" use "Custom Javascript formatter"
+1 - Setup your TTN application. Add an end device with the following parameters:
+
+Frequency plan: Europe 863-870 MHz (SF9 for RX2 - recommended)
+
+LoRaWAN version: 1.0.3
+
+AppEUI: 0000000000000000
+
+DevEUI: Generate (add this to the main.c file)
+
+AppKey: Generate (add this to the main.c file)
+
+2 - In TTN end device "Payload formatters" -> "Uplink" use "Custom Javascript formatter":
 
 	function decodeUplink(input) {
 		var jsonString = "";
