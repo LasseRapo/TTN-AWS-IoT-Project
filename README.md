@@ -46,7 +46,7 @@ AppKey: Generate (add this to the main.c file)
 
 2 - Setup AWS IoT from the application you created in TTN and follow these instructions "https://www.thethingsindustries.com/docs/integrations/cloud-integrations/aws-iot/deployment-guide/"
 
-3 - Setup DynamoDB following these instructions "https://docs.aws.amazon.com/iot/latest/developerguide/iot-ddrule.html"
+3 - Setup DynamoDB following these instructions "https://docs.aws.amazon.com/iot/latest/developerguide/iot-ddb-rule.html"
 
 For "SQL statement" to get our project work use this 
 
