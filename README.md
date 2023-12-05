@@ -18,16 +18,20 @@ LoRaWAN version: 1.0.3
 
 JoinEUI (appeui): 0000000000000000 (this is already in the main.c file, line 29, in C byte array format)
 
-DevEUI: Generate (click on the <> button to get the required C byte array format, copy this to the main.c file)
+DevEUI: Generate
 
-AppKey: Generate (click on the <> button to get the required C byte array format, copy this to the main.c file)
+AppKey: Generate
 
-Your main.c should have your DevEUI and AppKey added:
+End device ID: automatically generated when you generate the DevEUI key.
+
+Your main.c should have your DevEUI and AppKey added. You can copy them from the TTN end device information panel. Click on the <> button next to the keys to get the required C byte array format:
+
+![kuva](https://github.com/LasseRapo/TTN-AWS-IoT-Project/assets/71126392/0a6f84dd-3d71-48da-9d49-f42e507ba4b1)
 
 ![kuva](https://github.com/LasseRapo/TTN-AWS-IoT-Project/assets/71126392/5f4a0bb2-fca9-4929-b6d4-df677dce048b)
 
 
-End device ID: automatically generated when you generate the DevEUI key.
+
 
 2 - In the TTN end device select "Payload formatters" -> "Uplink" use "Custom Javascript formatter". Paste the following code to the Javascript formatter:
 
