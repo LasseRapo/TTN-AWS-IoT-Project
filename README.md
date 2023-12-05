@@ -96,9 +96,9 @@ Here is the configuration I used for the rule:
 
 Modify the RIOTBASE parameter so that it refers to the path of your RIOT code base if it is somewhere else.
 
-5 - In a terminal navigate to the folder that has the main.c and Makefile and run "make all".
+5 - In a terminal navigate to the folder that has the main.c and Makefile and run ```make all```.
 
-If you get an error such as "USE_NEWLIB_NANO==1 but nano include folder not found!", run "source /opt/riot.source" and try "make all" again.
+If you get an error such as "USE_NEWLIB_NANO==1 but nano include folder not found!", run ```source /opt/riot.source``` and try ```make all``` again.
 
 6 - Download the generated firmware file "lorawan_sensors.elf" generated. It should be under this path -> "/bin/b-l072z-lrwan1/lorawan_sensors.elf".
 
